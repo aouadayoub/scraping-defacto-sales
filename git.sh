@@ -1,6 +1,7 @@
 #!/bin/bash
 start_time=$SECONDS
 git init
+git add README.md
 git add .
 git commit -m "commit $(date)"
 git branch -M main
